@@ -27,3 +27,6 @@ restore_auto_read    0
 enable_lon           1
 ```
 - ip.address.of.interface can easy be obtained on Windows 10 by: `ping opi-gpib.local`
+
+# Design docs
+https://workspace.circuitmaker.com/Projects/Details/Lukasz-Nidecki-2/opi-zero-gpib
