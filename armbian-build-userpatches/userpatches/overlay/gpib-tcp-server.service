@@ -1,0 +1,12 @@
+[Unit]
+Description="GPIB TCP Server"
+After=gpib-tcp-server-configure.service
+
+[Service]
+RestartSec=1s
+Type=simple
+ExecStart=/usr/local/bin/gpib-tcp-server.py --tcp-port-base=5660
+
+[Install]
+WantedBy=multi-user.target
+

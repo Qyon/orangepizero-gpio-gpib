@@ -1,0 +1,10 @@
+[Unit]
+Description="GPIB Configure"
+
+[Service]
+Type=oneshot
+ExecStart=-/usr/local/sbin/gpib_config -f /etc/gpib.conf
+
+[Install]
+WantedBy=multi-user.target
+
